@@ -1,4 +1,4 @@
-
+//trigger - delete on queue table
 DELIMITER $$
 CREATE TRIGGER num_pastients_delete
 after delete ON queue 
