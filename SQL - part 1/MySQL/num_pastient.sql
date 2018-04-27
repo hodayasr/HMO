@@ -1,3 +1,5 @@
+//trigger - insert on queue table
+
 DELIMITER $$
 CREATE TRIGGER num_pastients
 after INSERT ON queue 
