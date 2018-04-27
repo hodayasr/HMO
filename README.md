@@ -22,7 +22,13 @@ java / App -
 		 * END
 		 */
 
-	// question 3 - view 
+		// question 3 - view top 10 patients who wait the longest time
+
+		/* view : 
+		  CREATE VIEW Current_Pastients_List AS
+		(select pastient_id,queue_time,time,doctor_id FROM queue inner join queue_reserved where queue_reserved.queue_id=queue.queue_id ORDER BY 
+				TIMEDIFF(`healthmaintenance`.`queue`.`time`, `healthmaintenance`.`queue_reserved`.`queue_time`) DESC limit 10);
+		 */
 
 #part 2 : DB Normalization 
 
