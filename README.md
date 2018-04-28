@@ -29,6 +29,8 @@ java / App -
 		(select pastient_id,queue_time,time,doctor_id FROM queue inner join queue_reserved where queue_reserved.queue_id=queue.queue_id ORDER BY 
 				TIMEDIFF(`healthmaintenance`.`queue`.`time`, `healthmaintenance`.`queue_reserved`.`queue_time`) DESC limit 10);
 		 */
+		 
+		 // question 4 - triggers - num_patients & num_patients_delete
 
 #part 2 : DB Normalization 
 
