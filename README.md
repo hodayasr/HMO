@@ -1,8 +1,8 @@
 # HMO
 
-ex. 2 -DataBase course
+*ex. 2 -DataBase course
 
-#SQL + JAVA - part 1 : HMO DataBase
+#SQL + JAVA - part 1 : Health maintenance organizations DataBase
 
 using MySQL Connector
 java / App - 
